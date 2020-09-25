@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+h1{
+	color:blue;
+}
+.content{
+	color:grey;
+}
+#msg{
+	background-color:green;
+}

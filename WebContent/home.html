@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script src="script.js">
+</script>
+<style>
+</style>
+
+<!--<link rel="stylesheet" href="style.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+<h1> Your info</h1>
+<p class="content">More details</p>
+<p id="msg">warning</p>
+<form>
+	<input type="text" id="searchText" required onFocus="enableOnInput();" onBlur="disableOnBlur();"> <br>
+	<input type="submit" value="send" onClick="call();"> <br>
+	<input type="button" value="enable link" onClick="enableOnInput();"> <br>
+	<input type="button" value="disable link" onClick="disableOnBlur();"> <br>
+	<input type="button" value="change window loc" onClick="changeWindowLocation();"> <br>
+	<a href="http://google.com" class="btn btn-link disabled" id="link" role="button" >Link Button</a>
+	<input type="reset" class="btn btn-info " value="reset Button" >
+</form>
+</body>
+</html>
